@@ -1,0 +1,4 @@
+2022-12-01 21:27:13,949 +0530 [main] INFO  (Log4jTest.java:24) - WebdriverManager inciating Webdriver object
+2022-12-01 21:27:19,853 +0530 [main] INFO  (Log4jTest.java:27) - Chrome Driver object intialized to WebDriver Instance
+2022-12-01 21:27:19,979 +0530 [main] INFO  (Log4jTest.java:30) - WebSite Url has loaded in Browser
+2022-12-01 21:27:21,178 +0530 [main] INFO  (Log4jTest.java:33) - browser get close

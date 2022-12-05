@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameterTest">
+
+	<test name="parameterTest1">
+		<parameter name="name" value="moin" />
+		<parameter name="surname" value="khan" />
+		<classes>
+		 	<class name="com.qa.randomprojects.TestCases.ParameterTest" />
+		 
+		</classes>
+		
+	</test>
+	
+</suite>

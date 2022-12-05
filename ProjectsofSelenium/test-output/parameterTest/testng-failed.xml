@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameterTest]" guice-stage="DEVELOPMENT">
+  <parameter name="surname" value="khan"/>
+  <parameter name="name" value="moin"/>
+  <test name="parameterTest1(failed)">
+    <parameter name="surname" value="khan"/>
+    <parameter name="name" value="moin"/>
+    <classes>
+      <class name="com.qa.randomprojects.TestCases.ParameterTest">
+        <methods>
+          <include name="parameterPass"/>
+        </methods>
+      </class> <!-- com.qa.randomprojects.TestCases.ParameterTest -->
+    </classes>
+  </test> <!-- parameterTest1(failed) -->
+</suite> <!-- Failed suite [parameterTest] -->
